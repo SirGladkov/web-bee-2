@@ -1,6 +1,6 @@
 {
   "name": "web-bee-2",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -16,16 +16,43 @@
   "config": {
     "standard-version": {
       "types": [
-      { "type": "feat", "section": "Features" },
-      { "type": "fix", "section": "Bug Fixes" },
-      { "type": "perf", "section": "Performance Improvements" },
-      { "type": "refactor", "section": "Code Refactoring" },
-      { "type": "docs", "section": "Documentation" },
-      { "type": "style", "hidden": false }, 
-      { "type": "chore", "hidden": false }, 
-      { "type": "test", "hidden": false }, 
-      { "type": "revert", "section": "Reverts" }
-    ]
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {
+          "type": "perf",
+          "section": "Performance Improvements"
+        },
+        {
+          "type": "refactor",
+          "section": "Code Refactoring"
+        },
+        {
+          "type": "docs",
+          "section": "Documentation"
+        },
+        {
+          "type": "style",
+          "hidden": false
+        },
+        {
+          "type": "chore",
+          "hidden": false
+        },
+        {
+          "type": "test",
+          "hidden": false
+        },
+        {
+          "type": "revert",
+          "section": "Reverts"
+        }
+      ]
     },
     "commitizen": {
       "path": "cz-conventional-changelog"
