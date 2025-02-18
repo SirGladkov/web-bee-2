@@ -8,6 +8,11 @@
     "start": "vite preview",
     "release": "standard-version"
   },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npx --no-install commitlint --edit $1"
+    }
+  },
   "config": {
     "standard-version": {
       "types": [
@@ -48,6 +53,9 @@
           "section": "Reverts"
         }
       ]
+    },
+    "commitizen": {
+      "path": "cz-conventional-changelog"
     }
   },
   "type": "module",
