@@ -1,12 +1,54 @@
 {
   "name": "web-bee-2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "start": "vite preview",
     "release": "standard-version"
+  },
+  "config": {
+    "standard-version": {
+      "types": [
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {
+          "type": "perf",
+          "section": "Performance Improvements"
+        },
+        {
+          "type": "refactor",
+          "section": "Code Refactoring"
+        },
+        {
+          "type": "docs",
+          "section": "Documentation"
+        },
+        {
+          "type": "style",
+          "hidden": true
+        },
+        {
+          "type": "chore",
+          "hidden": true
+        },
+        {
+          "type": "test",
+          "hidden": true
+        },
+        {
+          "type": "revert",
+          "section": "Reverts"
+        }
+      ]
+    }
   },
   "type": "module",
   "keywords": [],
